@@ -27,7 +27,7 @@
   "activationHooks": [
     "core:loaded-shell-environment"
   ],
-  "atomTestRunner": "./spec/custom-runner",
+  "atomTestRunner": "./spec/custom-runner.ts",
   "atomTranspilers": [
     {
       "transpiler": "atom-ts-transpiler",

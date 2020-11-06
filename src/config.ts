@@ -1,8 +1,8 @@
 import which from "which"
 
-type configObjects = Record<string, configObject>
+export type configObjects = Record<string, configObject>
 
-type configObject = {
+export type configObject = {
   title: string
   description: string
   default?: string | boolean | number
